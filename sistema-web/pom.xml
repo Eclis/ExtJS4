@@ -19,7 +19,7 @@
 					<stopPort>10000</stopPort>
 					<stopKey>ipservices</stopKey>
 					<connectors>
-						<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+						<connector implementation="org.eclipse.jetty.server.bio.SocketConnector">
 							<port>8081</port>
 							<maxIdleTime>60000</maxIdleTime>
 						</connector>
